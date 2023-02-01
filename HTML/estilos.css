@@ -1,0 +1,26 @@
+header{
+    background-color: yellowgreen;
+    text-align: center;
+    font-size: 60px;
+}
+nav{
+    background-color: grey;
+    text-align: center;
+    font-size: 40px;
+}
+section{
+    background-color: chocolate;
+}
+article{
+    background-color: aqua;
+}
+aside{
+    background-color: black;
+}
+footer{
+    background-color: darkblue;
+}
+.container{
+    display: flex;
+    flex-direction: row
+}
