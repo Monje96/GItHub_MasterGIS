@@ -8,6 +8,14 @@ nav{
     text-align: center;
     font-size: 40px;
 }
+.menu{
+    display: flex;
+    flex-direction: row;
+    
+}
+.menuItems{
+    padding-right: 25%;
+}
 section{
     background-color: chocolate;
 }
