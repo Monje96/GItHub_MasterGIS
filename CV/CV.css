@@ -6,6 +6,7 @@ section.exp{
 }
 section.contacto{
     background-color: lavender;
+    box-sizing: content-box;
 }
 section.tech{
     background-color: darksalmon;
