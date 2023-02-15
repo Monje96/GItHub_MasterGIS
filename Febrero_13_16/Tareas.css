@@ -1,0 +1,8 @@
+li,input{
+   align-self: flex-end;
+}
+
+li::marker {
+    color: red;
+    font-size: 1.5em;
+}

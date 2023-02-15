@@ -1,0 +1,19 @@
+h1{
+    color: blue;
+}
+a1{
+    color: red;
+}
+a2{
+    text-decoration-line: underline;
+}
+a3{
+    color: yellow;
+}
+table, th, td{
+    border: 1px solid;
+    align-items: center;
+}
+caption{
+    color: blueviolet;
+}

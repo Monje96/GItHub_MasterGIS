@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1> 
+    <div><label for="nombre">Nombre:</label><input type="text" id="nombre" nombre="nombre" required>
+    </div>
+    <div><label for="apellido">Apellidos:</label><input type="text"></div>
+    <fieldset>
+        <legend>Sexo:</legend>
+    
+        <div>
+           <input type="radio" name="hombre">
+           <label for="hombre">Hombre</label>
+        </div>
+        <div>
+            <input type="radio" name="mujer">
+            <label for="mujer">Mujer</label>
+         </div>
+    </fieldset>
+    <div><label for="Correo">Correo:</label><input type="mail"></div>
+    <div><label for="poblacion">Poblacion:</label></div>
+    <div><select name="poblacion" id="poblacion">
+        <option value="Alicante">Alicante</option>
+        <option value="Madrid">Madrid</option>
+        <option value="Barcelona">Barcelona</option>
+        <option value="Bilbo">Bilbo</option>
+    </select></div> 
+    <div><input type="checkbox" name="1" id="1"><label for="1">Deseo recibir ofertas</label></div>
+    <div><input type="checkbox" name="1" id="2"><label for="2">No deseo recibir ofertas</label></div>
+    <div><textarea name="Descripcion" id="" cols="30" rows="10">Descripcion</textarea></div>
+    <div><button>Enviar</button></div>
+</body>
+</html>
