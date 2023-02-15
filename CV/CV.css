@@ -1,0 +1,38 @@
+[class~=gran]{
+   background-position: center;
+}
+section.exp{
+    background-color: burlywood;
+}
+section.contacto{
+    background-color: lavender;
+}
+section.tech{
+    background-color: darksalmon;
+}
+section.sum{
+    background-color: darkkhaki;
+}
+section.education{
+    background-color: aqua;
+}
+h1{
+    text-decoration: underline;
+}
+h6,p{
+    font-size: 25px;
+    text-align: left;
+}
+ul li{
+    list-style-type: circle;
+    list-style-position: inside;
+    font-size: 20px;
+}
+ol li{
+    list-style-type: lower-roman;
+    list-style-position: inside;
+    font-size: 20px;
+}
+body.letter{
+    text-align: left;
+}
